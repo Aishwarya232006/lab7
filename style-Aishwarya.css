@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color:black;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    color: #333;
+    color:white;
 }
 
 #taskInput {
@@ -30,6 +30,7 @@ h1 {
     list-style-type: none;
     padding: 0;
     width: 300px;
+    color: white;
 }
 
 .task {
@@ -37,7 +38,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #fff;
+    background-color:black;
     margin-bottom: 10px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -45,12 +46,16 @@ h1 {
 
 .task.completed {
     text-decoration: line-through;
-    color: #888;
+    color:green;
+
 }
 
 .task button {
+    width:100px;
+    height: 50px;
     background: none;
     border: none;
-    color: #888;
+    color:green;
     cursor: pointer;
+    background-color:grey;
 }
